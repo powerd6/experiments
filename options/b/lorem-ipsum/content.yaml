@@ -1,4 +1,4 @@
-id: lorem-ipsum
+id: lorem-ipsum # Could be inferred from folder name
 title: Lorem ipsum
 content_type: generic
 excerpt: Lorem ipsum dolor sit amet.
