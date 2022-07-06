@@ -32,6 +32,10 @@ This would allow each part of the content to be written on the most appropriate 
 
 A copy of option B, but with standard file names for specific fields.
 
+In this case `metadata` is where content-adjacent information is stored. While `body` is the actual content body, in the format that makes most sense.
+
+In this example, `data.json` is an arbitrary object that should be provided with the content to the mechanism that will render it.
+
 ## Conclusions
 
 `Explain what were the things that were noticed and what conclusions were drawn`
