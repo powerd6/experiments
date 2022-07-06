@@ -1,6 +1,18 @@
 # Defining structure for content authoring
 
-`Explanation of what the experiment is about and what it is trying to achieve`
+Refers to [#1](https://github.com/powerd6/experiments/issues/1).
+
+> When writing content, it is important to take into account the following things:
+> 
+> - Each piece of content should be referable by some unique identifier
+> - Contents can be written by one or multiple authors
+> - Contents can contain:
+>     - text
+>     - images
+>     - files
+>     - links
+> - Contents of different types may need to be displayed differently (but assume most of them won't)
+
 
 ## Options
 
@@ -15,6 +27,10 @@ Some markdown syntax extensions can be expected (like github's table syntax).
 A collection of files that get combined before shipping.
 
 This would allow each part of the content to be written on the most appropriate format (like `body` being a markdown file).
+
+### Option C
+
+A copy of option B, but with standard file names for specific fields.
 
 ## Conclusions
 
