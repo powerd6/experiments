@@ -36,7 +36,7 @@ In this case `metadata.yaml` is where content-adjacent information is stored. Wh
 
 In this example, `data.json` is an arbitrary object that should be provided with the content to the mechanism that will render it.
 
-This example also has a `file.bin`, a fake binary file, showcasing how you could attack arbitrary files and provide them as needed (to rendering, as part of the module output, as part of the book, etc). This would probably be done by encoding the file into a format that can be serialized with json or yaml, `base64` is the most likely contender.
+This example also has a `file.bin`, a fake binary file, showcasing how you could attach arbitrary files and provide them as needed (to rendering, as part of the module output, as part of the book, etc). This would probably be done by encoding the file into a format that can be serialized with json or yaml, `base64` is the most likely contender.
 
 ## Conclusions
 
